@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Cosmic Pizzeria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/respond.js"></script>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<div data-role="page" id="home">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" class="ui-btn-active ui-state-persist" title="Home Page">Home</a></li>
+                <li><a href="#menu" title="Menu">Menu</a></li>
+                <li><a href="#order" title="Order">Order</a></li>
+                <li><a href="#location" title="Location">Location</a></li>
+                <li><a href="#about_us" title="About Us">About Us</a></li>
+                <li><a href="#contact_us" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div role="main" class="ui-content">
+        <!--page 1 Home   -->
+        <h1>Cosmic Pizzeria</h1>
+
+        <h3>The best pizza in this world! (or the next)</h3>
+
+        <div>
+            <img src="images/fireside.jpg" class="img-responsive" alt="fireside">
+        </div>
+        <div>
+            <p>Our restaurant is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>Riversong Designs</h4>
+    </div>
+</div>
+<!--page 2 Menu-->
+<div data-role="page" id="menu">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" title="Home Page">Home</a></li>
+                <li><a href="#menu" class="ui-btn-active ui-state-persist" title="Menu">Menu</a></li>
+                <li><a href="#order" title="Order">Order</a></li>
+                <li><a href="#location" title="Location">Location</a></li>
+                <li><a href="#about_us" title="About Us">About Us</a></li>
+                <li><a href="#contact_us" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div role="main" class="ui-content">
+        <h3>Pizza Crust</h3>
+        <div data-role="content">
+            <div data-product="crust1" class="product">
+                <span data-name="thin">Thin Crust</span>
+                <span data-price="12.00">$12.00</span>
+            </div>
+            <div data-product="crust2" class="product">
+                <span data-name="pan">Pan Crust</span>
+                <span data-price="13.00">$13.00</span>
+            </div>
+            <div data-product="crust3" class="product">
+                <span data-name="hand_tossed">Hand Tossed Crust</span>
+                <span data-price="13.00">$13.00</span>
+            </div>
+        </div>
+        <h3>Pizza Toppings</h3>
+        <div data-role="content">
+            <div data-product="pepperoni" class="product">
+                <span data-name="pepperoni">Pepperoni</span>
+                <span data-price="2.00">$2.00</span>
+            </div>
+            <div data-product="sausage" class="product">
+                <span data-name="sausage">Sausage</span>
+                <span data-price="2.00">$2.00</span>
+            </div>
+            <div data-product="onions" class="product">
+                <span data-name="onions">Onions</span>
+                <span data-price="1.00">$1.00</span>
+            </div>
+        </div>
+        <div>
+            <h3>Drinks</h3>
+            <div data-role="content">
+                <div data-product="coke" class="product">
+                    <span data-name="coke">Coke</span>
+                    <span data-price="2.00">$2.00</span>
+                </div>
+                <div data-product="diet_coke" class="product">
+                    <span data-name="diet_coke">Diet Coke</span>
+                    <span data-price="2.00">$2.00</span>
+                </div>
+                <div data-product="sprite" class="product">
+                    <span data-name="sprite">Sprite</span>
+                    <span data-price="2.00">$2.00</span>
+                </div>
+                <div data-product="root_beer" class="product">
+                    <span data-name="root_beer">Coke</span>
+                    <span data-price="2.00">$2.00</span>
+                </div>
+            </div>
+        </div>
+            <div>
+
+                <div>
+                    <button id="buy">Buy Now</button>
+                </div>
+            </div>
+        <div data-role="footer" data-position="fixed">
+            <h4>Riversong Designs</h4>
+        </div>
+    </div>
+</div>
+<!--Page 3 order-->
+<div data-role="page" id="order">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" title="Home Page">Home</a></li>
+                <li><a href="#menu" title="Menu">Menu</a></li>
+                <li><a href="#order" class="ui-btn-active ui-state-persist" title="Order">Order</a></li>
+                <li><a href="#location" title="Location">Location</a></li>
+                <li><a href="#about_us" title="About Us">About Us</a></li>
+                <li><a href="#contact_us" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div role="main" class="ui-content">
+        <h3 id="current-header">Current Order</h3>
+        <div id="cartDiv">
+        </div>
+        <div>
+            <div id="buyDiv">
+            </div>
+            <div>
+                <button id="saveOrder">Save Order</button>
+            </div>
+            <div>
+            <button id="loadOrder">Load Order</button>
+            </div>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <h4>Riversong Designs</h4>
+    </div>
+</div>
+</div>
+
+<!--Page 4 Location-->
+<div data-role="page" id="location">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" title="Home Page">Home</a></li>
+                <li><a href="#menu" title="Menu">Menu</a></li>
+                <li><a href="#order" title="Order">Order</a></li>
+                <li><a href="#location" class="ui-btn-active ui-state-persist" title="Location">Location</a></li>
+                <li><a href="#about_us" title="About Us">About Us</a></li>
+                <li><a href="#contact_us" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--</div>-->
+    <div>
+        <!--Latitude: <span id="lat"></span><br/>-->
+        <!--Longitude: <span id="lng"></span><br/>-->
+        URL: <span id="url"></span><br/>
+        Direction: <span id="urldir"></span>
+        <br/>
+        <div id="directionMap"></div>
+        <div id="directions"></div>
+    </div>
+
+    <div data-role="footer" data-position="fixed">
+        <h4>Riversong Designs</h4>
+    </div>
+</div>
+
+<!--page 5 About Us-->
+<div data-role="page" id="about_us">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" title="Home Page">Home</a></li>
+                <li><a href="#menu" title="Menu">Menu</a></li>
+                <li><a href="#order" title="Order">Order</a></li>
+                <li><a href="#location" title="Location">Location</a></li>
+                <li><a href="#about_us" class="ui-btn-active ui-state-persist" title="About Us">About Us</a></li>
+                <li><a href="#contact_us" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div role="main" class="ui-content">
+        <h2>About Us</h2>
+
+        <div>
+            <img src="images/fireside.jpg" class="img-responsive" alt="fireside">
+        </div>
+        <div>
+            <address>
+                <strong>Cosmic Pizza</strong><br>
+                1231 E Mission Ave<br>
+                Spokane, WA 99207<br>
+                (509)849-3431
+            </address>
+        </div>
+        <div>
+            <p>Our restaurant is Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut
+                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia
+                deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>Riversong Designs</h4>
+    </div>
+</div>
+
+<!--page 6 Contact Us-->
+<div data-role="page" id="contact_us">
+    <div data-role="header" data-id="navbar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#home" title="Home Page">Home</a></li>
+                <li><a href="#menu" title="Menu">Menu</a></li>
+                <li><a href="#order" title="Order">Order</a></li>
+                <li><a href="#location" title="Location">Location</a></li>
+                <li><a href="#about_us" title="About Us">About Us</a></li>
+                <li><a href="#contact_us" class="ui-btn-active ui-state-persist" title="Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div role="main" class="ui-content">
+        <h1>Contact Us</h1>
+
+        <h1>Cosmic Pizzeria</h1>
+
+        <h3>The best pizza in this world! (or the next)</h3>
+
+        <a href="tel:509-849-3431" data-role="button">509-849-3431</a>
+        <a href="sms://509-849-3431" data-role="button">Order Pizza Now ** TextMsg</a>
+        <a href="mailto:dgagne2001@hotmail.com" data-role="button">Contact us by Email</a>
+
+        <div data-role="footer" data-position="fixed">
+            <h4>Riversong Designs</h4>
+        </div>
+    </div>
+</div>
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
