@@ -13,38 +13,38 @@
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <script>
-//    document.addEventListener("deviceready", onDeviceReady, false);
-//    // device APIs are available
-//    //
-//    function onDeviceReady() {
-//// Empty
+    document.addEventListener("deviceready", onDeviceReady, false);
+    // device APIs are available
+    //
+    function onDeviceReady() {
+// Empty
+    }
+    // alert dialog dismissed
+//    function alertDismissed() {
+//// do something
 //    }
-//    // alert dialog dismissed
-////    function alertDismissed() {
-////// do something
-////    }
-//    // Show a custom alertDismissed
-//    $('#buy').on("click", function showAlert() {
-//        navigator.notification.alert(
-//                'You are our 500 customer! You won a free pizza.',  // message
-//                alertDismissed,         // callback
-//                'Accept',            // title
-//                'Done'                  // buttonName
-//        );
-//    });
+    // Show a custom alertDismissed
+    $('buy').on("click", function showAlert() {
+        navigator.notification.alert(
+                'You are our 500 customer! You won a free pizza.',  // message
+                alertDismissed,         // callback
+                'Accept',            // title
+                'Done'                  // buttonName
+        );
+    });
 
-    navigator.accelerometer.getCurrentAcceleration(accelerometerSuccess, accelerometerError);
-
-    function onSuccess(acceleration) {
-        alert('Acceleration X: ' + acceleration.x + '\n' +
-        'Acceleration Y: ' + acceleration.y + '\n' +
-        'Acceleration Z: ' + acceleration.z + '\n' +
-        'Timestamp: '      + acceleration.timestamp + '\n');
-    };
-    function onError() {
-        alert('onError!');
-    };
-    navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+//    navigator.accelerometer.getCurrentAcceleration(accelerometerSuccess, accelerometerError);
+//
+//    function onSuccess(acceleration) {
+//        alert('Acceleration X: ' + acceleration.x + '\n' +
+//        'Acceleration Y: ' + acceleration.y + '\n' +
+//        'Acceleration Z: ' + acceleration.z + '\n' +
+//        'Timestamp: '      + acceleration.timestamp + '\n');
+//    };
+//    function onError() {
+//        alert('onError!');
+//    };
+//    navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
 
 </script>
 <body>
